@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/a"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/School"
+            android:icon="@drawable/a"
+            android:title="School" />
+
+        <item
+            android:id="@+id/College"
+            android:icon="@drawable/a"
+            android:title="College" />
+
+        <item
+            android:id="@+id/university"
+            android:icon="@drawable/a"
+            android:title="University" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/a"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/a"
+            android:title="Settings" />
+    </group>
+</menu>
